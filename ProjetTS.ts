@@ -4,7 +4,6 @@ import * as fs from 'fs';
 // Chemin d'accès des fichiers
  //const googleDriveFileUrl = 'https://drive.google.com/uc?export=download&id=1wYOUPKpnObyd3FPa-l6HnRxvUqIqdKZe';
 const localFilePath = 'C:\\Users\\DELL\\Desktop\\TypeScript\\Wordatester.docx';
-//const googleDriveFileUrl = 'https://drive.google.com/uc?export=download&id=1qB8GLHCN38LtK3m_5vDCthlixBZFoxFK';
 
 // Permet de lire le contenu d'un fichier depuis un Drive
 async function readTextFileFromGoogleDrive(url: string): Promise<string | null> {
